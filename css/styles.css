@@ -543,6 +543,11 @@ a {
     background-color: var(--brand-color);
 }
 
+.footer-icon:hover,
+.footer-icon:focus {
+    background-color: #2196f3;
+}
+
 .principal-container {
     display: flex;
     flex-wrap: wrap;
