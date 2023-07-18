@@ -532,7 +532,7 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color: var(--background-color);
+    color: #fff;
 }
 .footer-icons-container .footer-icon svg {
     width: 20px;
