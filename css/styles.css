@@ -911,15 +911,6 @@ a {
     margin: 94px 215px;
     border-radius: 4px;
 }
-
-.regular-customers:hover,
-.regular-customers:focus {
-    border-radius: 4px;
-    border: 1px solid #2196f3;
-    cursor: pointer;
-    fill: var(--brand-color);
-}
-
 .logo-customer {
     display: flex;
     justify-content: center;
