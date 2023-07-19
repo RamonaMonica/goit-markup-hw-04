@@ -498,6 +498,7 @@ a {
 .email-footer:focus {
     color: #2196f3;
 }
+
 .footer-icons-list {
     width: 206px;
     height: 80px;
@@ -509,6 +510,7 @@ a {
     margin-left: 70px;
 }
 .footer-icons-title {
+    display: flex;
     color: #fff;
     font-family: Roboto;
     font-size: 14px;
@@ -520,7 +522,8 @@ a {
 }
 .footer-icons-container {
     display: flex;
-    margin-top: 20px;
+    justify-content: flex-start;
+
     gap: 10px;
     justify-content: center;
 }
@@ -541,6 +544,14 @@ a {
 .footer-icons-container .footer-icon:hover,
 .footer-icons-container .footer-icon:focus {
     background-color: var(--brand-color);
+    color: #2196f3;
+}
+.footer-icon:focus,
+.footer-icon:hover {
+    color: #2196f3;
+}
+.footer-icon {
+    color: #fff;
 }
 
 .principal-container {
@@ -884,6 +895,52 @@ a {
 .icon {
     display: flex;
     justify-items: center;
+    color: #afb1b8;
+}
+
+.footer-icons-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    box-sizing: content-box;
+    width: 206px;
+    height: 80px;
+    flex-shrink: 0;
+    gap: 10px;
+    margin-right: 878px;
+    margin-top: 75px;
+}
+.footer-icons-list .footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #75757552;
+}
+.footer-icons-list .footer-icon svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
+
+.footer-icons-container:hover .footer-icons-container:focus {
+    color: #2196f3;
+}
+
+.icon:hover,
+.icon:focus {
+    background-color: #2196f3;
+}
+.icon svg:hover,
+.icon svg:focus {
+    fill: #fff;
+}
+
+.icon {
+    display: flex;
+    justify-items: center;
 }
 .last-section {
     width: 100%;
@@ -929,4 +986,12 @@ a {
     fill: #afb1b8;
     border: 1px solid #afb1b8;
     border-radius: 4px;
+}
+
+.logos svg:hover {
+    fill: #2196f3;
+}
+
+.footer-icon svg:hover {
+    color: #2196f3;
 }
